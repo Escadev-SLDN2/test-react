@@ -12,3 +12,17 @@ header {
   padding: 1rem;
   background-color: #000000;
 }
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  margin: 0 1rem;
+}
