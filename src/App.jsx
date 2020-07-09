@@ -22,10 +22,13 @@ function App () {
           </ul>
         </nav>
       </header>
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/contact' component={Contact} />
-      </Switch>
+
+      <main>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </main>
     </BrowserRouter>
   )
 }
