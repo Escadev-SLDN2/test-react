@@ -5,7 +5,7 @@ import Header from 'Header'
 
 const App = () => {
   return (
-    <Header />
+    <Header prenom='Nicolas' />
   )
 }
 
