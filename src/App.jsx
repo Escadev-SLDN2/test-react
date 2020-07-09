@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Home from './Home'
+import Contact from './Contact'
 
 import './assets/css/index.css'
 
