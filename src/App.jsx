@@ -1,11 +1,11 @@
 import React from 'react'
 import './assets/css/index.css'
 
+import Header from 'Header'
+
 function App () {
   return (
-    <header>
-      <h1>Bienvenue sur mon application React !</h1>
-    </header>
+    <Header />
   )
 }
 
