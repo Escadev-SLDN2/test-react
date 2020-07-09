@@ -3,7 +3,7 @@ import './assets/css/index.css'
 
 import Header from 'Header'
 
-function App () {
+const App = () => {
   return (
     <Header />
   )
