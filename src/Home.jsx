@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Home (props) {
-  return (
-    <ul>
-      <li>{props.prenom}</li>
-      <li>{props.nom}</li>
-      <li>{props.profession}</li>
-    </ul>
-  )
+const Home = props => {
+  const tProps = []
+  for (const prop in props) {
+    tProps.push(`${props[prop]}`)
+  }
+
+  const propslist = tProps.map((name, index) => <li key={index}>{name}</li>)
+
+  return <ul>{propslist}</ul>
 }
 
 export default Home

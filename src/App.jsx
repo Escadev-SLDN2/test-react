@@ -8,7 +8,7 @@ function App () {
   return (
     <>
       <Header />
-      <Home prenom='Nicolas' nom='Vauché' profession='Formateur' />
+      <Home prenom='Nicolas' nom='Vauché' profession='Formateur' age='43' />
     </>
   )
 }
