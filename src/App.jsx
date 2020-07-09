@@ -4,7 +4,7 @@ import './assets/css/index.css'
 import Header from './Header'
 import Home from './Home'
 
-function App () {
+const App = () => {
   return (
     <>
       <Header />
